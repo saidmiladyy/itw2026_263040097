@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Table dan Form</title>
+  </head>
+  <body>
+    <h1>Contoh Table dan Form</h1>
+    <form>
+      <table cellpadding="4">
+        <tr>
+          <td align="right"><label for="nama">Nama:</label></td>
+          <td>
+            <input type="text" id="nama" name="nama" autocomplete="off" autofocus required />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" autocomplete="off" autofocus required /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="password">Password:</label></td>
+          <td><input type="password" id="password" name="password" autocomplete="off" autofocus required /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="tanggal">Tanggal Lahir:</label></td>
+          <td><input type="date" id="tanggal" name="tanggal" required /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="warna">Warna Favorit:</label></td>
+          <td><input type="color" id="warna" name="warna" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="gender">Jenis Kelamin:</label></td>
+          <td>
+            <input type="radio" id="laki-laki" name="gender" value="laki-laki" required />
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="gender" value="perempuan" />
+            <label for="perempuan">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="angka">Angka:</label></td>
+          <td><input type="number" id="angka" name="angka" min="0" max="100" /></td>
+        </tr>
+        <tr>
+          <td align="right"><button type="submit">Submit!</button></td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
