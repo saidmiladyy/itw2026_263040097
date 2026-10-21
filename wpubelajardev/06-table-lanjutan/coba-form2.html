@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba input Atribut, Checkbox, dan Radio</title>
+  </head>
+  <body>
+    <h1>Contoh input Atribut, Checkbox, dan Radio</h1>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br /><br />
+
+      <label for="gender">Jenis Kelamin:</label>
+      <input type="radio" id="laki-laki" name="gender" value="laki-laki" required />
+      <label for="laki-laki">Laki-laki</label>
+      <input type="radio" id="perempuan" name="gender" value="perempuan" />
+      <label for="perempuan">Perempuan</label><br /><br />
+
+      <label for="hobi">Hobi:</label>
+      <input type="checkbox" id="membaca" name="hobi[]" value="membaca" />
+      <label for="membaca">Membaca</label>
+      <input type="checkbox" id="olahraga" name="hobi[]" value="olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <input type="checkbox" id="musik" name="hobi[]" value="musik" />
+      <label for="musik">Musik</label><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
