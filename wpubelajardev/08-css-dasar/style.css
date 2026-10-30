@@ -1,0 +1,12 @@
+h1 {
+  font-size: 120px;
+  font-family: poppins, sans-serif;
+  color: aqua;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+  text-align: center;
+}
